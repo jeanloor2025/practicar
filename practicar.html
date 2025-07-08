@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script/myscript.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <h1>Java Programming</h1>
-    <p>This is a simple HTML document.</p>
-    <script>
-        let name = "Jean Loor";
-        let age = 30;
-        let isStudent = true;
-        console.log("Name:", name);
-        console.log("Age:", age);
-        console.log("Is Student:", isStudent);
-    </script>
+  <h1>
+    <tag>Taller maestro Domingo</tag>
+  </h1>
+  <p>El experto en reparación de <span>vehículos</span> con mas de 20 años de experiencia.</p>
+
+  <h2>Respuestos</h2>
+  <p>Contamos con una amplia gama de repuestos para todo tipo de vehículos, desde autos hasta camiones.</p>
+  <a target="_blank"
+    href="https://disauto.ec/product-custom-label/aveo/?srsltid=AfmBOopgsjGKqD79Z3ZnQPLjYXfwZoaNhXtOWXMnHf5LwWUwHavNcN-I">Mira
+    mas aqui</a>
+  <image src="images/aveo.jpg" alt="Repuestos de Aveo" width="200" height="200">
+    <form action="https://formspree.io/f/xjvowqeg" method="POST">
+      <label for="tipo-aveo">Que tipo de aveo tienes?</label>
+      <input value="aveo family" id="tipo-aveo" type="text" name="tipo-aveo" placeholder="Escribe el tipo de aveo">
+      <br>
+      <label for="tipo-repuesto">Que tipo de repuesto necesitas?</label>
+      <input value="rotulas" id="tipo-repuesto" type="text" name="tipo-repuesto"
+        placeholder="Escribe el tipo de repuesto">
+      <br>
+      <label for="comentarios">Comentarios</label>
+      <textarea value cols="30" rows="5" id="comentarios" type="text" placeholder="añade tu comentario"
+        name="comentarios"></textarea>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+
 </body>
+
 </html>
+<footer>
+  <p>&copy; 2025 Taller maestro Domingo</p>
+</footer>
